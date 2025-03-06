@@ -1,11 +1,11 @@
 
-function calculate() 
+function calculator() 
 {
     let num1 = parseFloat(document.getElementById("num1").value);
     let num1_box = document.getElementById("num1");
     let num2 = parseFloat(document.getElementById("num2").value);
     let num2_box = document.getElementById("num2");
-    let operator = document.getElementById("operator").value;
+    let operation = document.getElementById("operation").value;
     let resultsBox = document.getElementById("results");
 
 
@@ -34,7 +34,7 @@ function calculate()
     }
 
     let result;
-    switch (operator) {
+    switch (operation) {
         case "+": 
             result = num1 + num2; 
             break;
@@ -68,7 +68,7 @@ function calculate()
 
     let newResult = document.createElement("div");
     newResult.classList.add("result-item");
-    newResult.innerHTML = `<b>${num1} ${operator} ${num2} = ${result}</b>`;
+    newResult.innerHTML = `<b>${num1} ${operation} ${num2} = ${result}</b>`;
 
     resultsBox.append(newResult); 
 

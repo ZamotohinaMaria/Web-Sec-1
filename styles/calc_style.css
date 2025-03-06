@@ -4,7 +4,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: lightgrey;
     margin: 0;
 }
 
@@ -23,7 +22,7 @@ body {
     height: 90%;
     max-height: 400px;
     padding: 20px;
-    background-color: #c1ffc1;
+    background-color: rgb(255, 222, 222);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
     border-radius: 10px;
@@ -45,7 +44,7 @@ input, select {
     padding: 10px;
     border: 2px solid;
     border-radius: 5px;
-    border-style: dotted;
+    border-style: dashed;
     border-color: red;
     color: red;
     flex: 1;
@@ -54,7 +53,7 @@ input, select {
 input:hover, select:hover, input:active, select:active{
     border: 2px solid;
     border-radius: 5px;
-    border-style: dotted;
+    border-style: dashed;
     border-color: darkred;
     color: darkred;
 }
@@ -73,7 +72,7 @@ button {
     cursor: pointer;
     border-radius: 5px;
     font-weight: bold;
-    border-style: dotted;
+    border-style: dashed;
     border-color: red;
     color: red;
 }
@@ -90,7 +89,7 @@ button:hover {
     text-align: left;
     background-color: white;
     border: 2px solid;
-    border-style: dotted;
+    border-style: dashed;
     border-color: red;
     border-radius: 5px;
     font-size: 20px;    
